@@ -3,6 +3,8 @@
         "target": "ESNext",
         "module": "ESNext",
         "moduleResolution": "Bundler",
+        "sourceMap": true,
+        "outDir": "./dist"
     },
     "include": ["src/**/*"] // 哪些文件需要被编译
 }

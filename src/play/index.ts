@@ -8,7 +8,7 @@
  * 5.左值
  */
 
-import { Token, TokenKind, Scanner, CharStream } from './scanner'
+import { Token, TokenKind, Scanner, CharStream } from '../scanner/index'
 import {
     AstVisitor,
     AstNode,
