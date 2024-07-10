@@ -1,6 +1,8 @@
 {
     "compilerOptions": {
         "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
     },
     "include": ["src/**/*"] // 哪些文件需要被编译
 }
