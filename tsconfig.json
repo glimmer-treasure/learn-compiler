@@ -1,10 +1,16 @@
 {
     "compilerOptions": {
+        "baseUrl": ".",
         "target": "ESNext",
         "module": "ESNext",
-        "moduleResolution": "Bundler",
+        "moduleResolution": "Node",
         "sourceMap": true,
-        "outDir": "./dist"
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "paths": {
+            "validation-engine": ["src/index.ts"]
+        },
+        "declaration": true, // 生成.d.ts文件
     },
-    "include": ["src/**/*"] // 哪些文件需要被编译
+    "include": ["src/**/*"], // 哪些文件需要被typescript识别
 }
